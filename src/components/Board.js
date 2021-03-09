@@ -105,7 +105,7 @@ export default function Board({ GridSize }) {
 
   const mergeLeft = (row) => {
     let netScoreAdd = 0;
-    for(let i = 0;  i < GridSize-1; i--){
+    for(let i = 0;  i < GridSize-1; i++){
       let a = row[i];
       let b = row[i+1];
       if(a!==0 && a === b){
